@@ -114,6 +114,9 @@ public final class ItemInit {
     public static final RegistryObject<Item> BASIC_DIE = ITEMS.register("basic_die",
             () -> new Dice(new Item.Properties().tab(CommunityMod.TAB)));
 
+    public static final RegistryObject<Item> PICKLE_DIE = ITEMS.register("pickle_die",
+            () -> new Dice(new Item.Properties().tab(CommunityMod.TAB)));
+
     public static final RegistryObject<Item> TOAST = ITEMS.register("toast",
             () -> new Item(new Item.Properties().tab(CommunityMod.TAB)
                     .food(new FoodProperties.Builder().saturationMod(15).meat().nutrition(30).build())));
